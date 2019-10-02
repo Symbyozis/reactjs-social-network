@@ -1,0 +1,27 @@
+.nav {
+  border-right: 1px solid #dfe2e8;
+  ul {
+    padding-right: 10px;
+  }
+  .item {
+    a {
+      border-radius: 2px;
+      padding: 5px;
+      display: block;
+      &:hover {
+        background: #e1e5eb;
+      }
+    }
+
+    .active {
+      background: #e1e5eb;
+    }
+  }
+
+  .icon {
+    margin-right: 10px;
+    svg {
+      width: 12px;
+    }
+  }
+}

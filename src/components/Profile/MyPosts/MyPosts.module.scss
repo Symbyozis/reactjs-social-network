@@ -1,0 +1,29 @@
+.addPost {
+  display: flex;
+  align-items: flex-end;
+  margin-top: 40px;
+  textarea {
+    border-radius: 7px;
+    resize: none;
+    width: 400px;
+  }
+  button {
+    margin-left: 10px;
+    padding: 10px 20px;
+    border-radius: 7px;
+    border: 1px solid #285473;
+    font-size: 15px;
+    font-weight: bold;
+    cursor: pointer;
+    background: #285473;
+    color: #fff;
+    &:hover {
+      background: 0;
+      color: #285473;
+    }
+  }
+}
+
+.posts {
+  margin-top: 20px;
+}

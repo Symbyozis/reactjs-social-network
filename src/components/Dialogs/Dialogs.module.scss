@@ -1,0 +1,25 @@
+.dialogsItems {
+  border-right: 1px solid #dfe2e8;
+  padding-right: 30px;
+}
+
+.dialog {
+  cursor: pointer;
+  &:first-child {
+    padding-bottom: 10px;
+  }
+  &:not(:first-child) {
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+  &:not(:last-child) {
+    border-bottom: 1px solid #dfe2e8;
+  }
+
+  &:last-child {
+    padding-bottom: 0;
+  }
+  &.active {
+    color: #f79e13;
+  }
+}
