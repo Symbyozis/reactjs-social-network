@@ -76,26 +76,26 @@ const Navbar = () => {
           </NavLink>
         </li>
         <li className={style.item}>
-          <NavLink to="/music" activeClassName={style.active}>
+          <NavLink to="/users" activeClassName={style.active}>
             <i className={style.icon}>
               <svg
                 aria-hidden="true"
                 focusable="false"
                 data-prefix="fas"
-                data-icon="music"
+                data-icon="user"
                 role="img"
                 xmlns="http://www.w3.org/2000/svg"
-                viewBox="0 0 512 512"
-                className="svg-inline--fa fa-music fa-w-16 fa-3x"
+                viewBox="0 0 448 512"
+                className="svg-inline--fa fa-user fa-w-14 fa-3x"
               >
                 <path
                   fill="currentColor"
-                  d="M511.99 32.01c0-21.71-21.1-37.01-41.6-30.51L150.4 96c-13.3 4.2-22.4 16.5-22.4 30.5v261.42c-10.05-2.38-20.72-3.92-32-3.92-53.02 0-96 28.65-96 64s42.98 64 96 64 96-28.65 96-64V214.31l256-75.02v184.63c-10.05-2.38-20.72-3.92-32-3.92-53.02 0-96 28.65-96 64s42.98 64 96 64 96-28.65 96-64l-.01-351.99z"
+                  d="M224 256c70.7 0 128-57.3 128-128S294.7 0 224 0 96 57.3 96 128s57.3 128 128 128zm89.6 32h-16.7c-22.2 10.2-46.9 16-72.9 16s-50.6-5.8-72.9-16h-16.7C60.2 288 0 348.2 0 422.4V464c0 26.5 21.5 48 48 48h352c26.5 0 48-21.5 48-48v-41.6c0-74.2-60.2-134.4-134.4-134.4z"
                   className=""
                 />
               </svg>
             </i>
-            Музыка
+            Пользователи
           </NavLink>
         </li>
       </ul>
